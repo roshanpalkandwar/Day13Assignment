@@ -12,7 +12,7 @@
             {
                 case 1:
                     MaxNumber maxNumber = new MaxNumber();
-                    int val = maxNumber.PrintMaxNumber<int>(23, 45, 60);
+                    int val = maxNumber.PrintMaxNumber<int>(60, 45, 23);
                     Console.WriteLine("max number is "+val);
                     break;
             }
